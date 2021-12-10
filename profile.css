@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke !important;
+}
+
+.all-profile {
+  display: grid;
+}
+.all-profile .first-sect {
+  grid-row: 1;
+  grid-column: 1;
+}
+.all-profile .first-sect .profile {
+  border: 2px solid #7A9759;
+  background-color: white !important;
+  padding: px;
+  width: 70%;
+  border-radius: 10px;
+  height: 300px;
+}
+.all-profile .first-sect .pro-set {
+  border: 2px solid #7A9759;
+  background-color: white !important;
+  padding: px;
+  width: 70%;
+  border-radius: 10px;
+  height: 300px;
+}
+.all-profile .first-sect .pro-set .p-pro {
+  background-color: #2D3E50 !important;
+  border: none;
+  font-weight: bolder;
+}
+.all-profile .first-sect .pro-set .p-pro:hover {
+  background-color: white !important;
+  color: #7A9759;
+  border-bottom: 1px solid grey;
+  font-weight: bolder;
+}
+.all-profile .first-sect .pro-set .p-all-set {
+  color: #7A9759 !important;
+  font-weight: bolder;
+}
+.all-profile .first-sect .pro-set .p-all-set:hover {
+  background-color: #2D3E50 !important;
+  color: white !important;
+  font-weight: bolder;
+}
+.all-profile .second-sect {
+  grid-row: 1;
+  grid-column: 2;
+}
+.all-profile .second-sect .add-post {
+  display: grid;
+  border-bottom: 10px solid lightgray;
+  padding-bottom: 20px;
+}
+.all-profile .second-sect .add-post .add-1 {
+  grid-row: 1;
+  grid-column: 2;
+  background-color: lightgray;
+  border-radius: 10px;
+  height: 100px;
+  width: 50%;
+}
+.all-profile .second-sect .add-post .add-2 {
+  grid-row: 1;
+  grid-column: 3;
+  background-image: linear-gradient(to bottom, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.5)), url("images/seyi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 50%;
+  border-radius: 10px;
+  width: 60%;
+}
+.all-profile .second-sect .add-post .add-3 {
+  grid-row: 1;
+  grid-column: 4;
+  background-image: linear-gradient(to bottom, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.5)), url("images/muso.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 50%;
+  border-radius: 10px;
+  width: 60%;
+}
+.all-profile .second-sect .add-post .add-4 {
+  grid-row: 1;
+  grid-column: 5;
+  background-image: linear-gradient(to bottom, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.5)), url("images/francis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 50%;
+  border-radius: 10px;
+  width: 60%;
+}
+.all-profile .third-sect {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+@media screen and (max-width: 1000px) {
+  .all-profile {
+    display: grid;
+  }
+  .all-profile .first-sect {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 10px !important;
+    display: inline !important;
+    display: flex !important;
+  }
+  .all-profile .first-sect .profile {
+    border: 2px solid #7A9759;
+    background-color: white !important;
+    padding: px;
+    width: 60%;
+    border-radius: 10px;
+    height: 300px;
+  }
+  .all-profile .first-sect .pro-set {
+    border: 2px solid #7A9759;
+    background-color: white !important;
+    padding: px;
+    width: 60%;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 0px !important;
+    margin-left: 10px;
+  }
+  .all-profile .first-sect .pro-set .p-pro {
+    background-color: #2D3E50 !important;
+    border: none;
+    font-weight: bolder;
+  }
+  .all-profile .first-sect .pro-set .p-pro:hover {
+    background-color: white !important;
+    color: #7A9759;
+    border-bottom: 1px solid grey;
+    font-weight: bolder;
+  }
+  .all-profile .first-sect .pro-set .p-all-set {
+    color: #7A9759 !important;
+    font-weight: bolder;
+  }
+  .all-profile .first-sect .pro-set .p-all-set:hover {
+    background-color: #2D3E50 !important;
+    color: white !important;
+    font-weight: bolder;
+  }
+  .all-profile .second-sect {
+    grid-row: 3;
+    grid-column: 1;
+    margin-left: 50px !important;
+    margin-top: 50px !important;
+  }
+  .all-profile .second-sect .add-post {
+    display: grid;
+    border-bottom: 10px solid lightgray;
+    padding-bottom: 20px;
+  }
+  .all-profile .second-sect .add-post .add-1 {
+    grid-row: 1;
+    grid-column: 2;
+    background-color: lightgray;
+    border-radius: 10px;
+    height: 100px;
+    width: 50%;
+  }
+  .all-profile .second-sect .add-post .add-2 {
+    grid-row: 1;
+    grid-column: 3;
+    background-image: linear-gradient(to bottom, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.5)), url("images/seyi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 50%;
+    border-radius: 10px;
+    width: 60%;
+  }
+  .all-profile .second-sect .add-post .add-3 {
+    grid-row: 1;
+    grid-column: 4;
+    background-image: linear-gradient(to bottom, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.5)), url("images/muso.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 50%;
+    border-radius: 10px;
+    width: 60%;
+  }
+  .all-profile .second-sect .add-post .add-4 {
+    grid-row: 1;
+    grid-column: 5;
+    background-image: linear-gradient(to bottom, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.5)), url("images/francis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 50%;
+    border-radius: 10px;
+    width: 60%;
+  }
+  .all-profile .third-sect {
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: 20px;
+    margin-left: 60px !important;
+    width: 70% !important;
+  }
+}
+.accordion-views {
+  margin-top: 100px !important;
+  width: 15%;
+  margin-left: 200px;
+}
+
+.collapse-views {
+  margin-top: -500px;
+  margin-left: -200px;
+}
+
+.chat-dash {
+  border: 2px solid #7A9759;
+  border-radius: 10px;
+  width: 72%;
+}
+.chat-dash .img-back {
+  background-color: #2D3E50;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 5px solid #7A9759;
+}
+.chat-dash .img-back .img-chat {
+  width: 15% !important;
+  border-radius: 740px;
+}
+
+@media screen and (max-width: 700px) {
+  .accordion-views {
+    margin-top: 50px !important;
+    width: 15%;
+    margin-left: 50px;
+  }
+
+  .collapse-views {
+    margin-top: -60px;
+    margin-left: -100px;
+  }
+
+  .chat-dash {
+    border: 2px solid #7A9759;
+    border-radius: 10px;
+    width: 72%;
+  }
+  .chat-dash .img-back {
+    background-color: #2D3E50;
+    border-radius: 7px 7px 0px 0px;
+    border-bottom: 5px solid #7A9759;
+  }
+  .chat-dash .img-back .img-chat {
+    width: 15% !important;
+    border-radius: 740px;
+  }
+}/*# sourceMappingURL=profile.css.map */

@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  color: white !important;
+  background-color: #2D3E50 !important;
+}
+
+::selection {
+  color: white !important;
+  background-color: #2D3E50 !important;
+}
+
+#nav-all {
+  background-image: url("images/final.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+#nav-all .navbar-expand-md {
+  background-color: #2D3E50 !important;
+}
+#nav-all .btn-nav {
+  background-color: #7A9759;
+}
+
+.phone-text-all {
+  display: grid;
+}
+.phone-text-all .phone-text {
+  grid-row: 2;
+  grid-column: 2;
+  margin-top: 150px !important;
+  width: 70%;
+  color: white !important;
+}
+.phone-text-all .phone-gang {
+  grid-row: 2;
+  grid-column: 5;
+  margin-top: 150px !important;
+}
+.phone-text-all #phone-pics {
+  height: 500px;
+  border-radius: 50px;
+  border: 0;
+  box-shadow: 4px 0 40px -10px black;
+  transform: skew(-5deg, 14deg);
+}
+.phone-text-all #shey-name-all {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900 !important;
+  font-size: 41px;
+}
+.phone-text-all #shey-name {
+  color: #7A9759;
+}
+.phone-text-all .sign-btn {
+  background-color: #7A9759 !important;
+  border: 0 !important;
+}
+
+@media screen and (max-width: 680px) {
+  .phone-text-all {
+    display: grid;
+  }
+  .phone-text-all .phone-text {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 120px !important;
+    width: 70%;
+    color: white !important;
+    margin-left: 50px;
+  }
+  .phone-text-all .phone-gang {
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 150px !important;
+    display: none;
+  }
+  .phone-text-all #phone-pics {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: -70px;
+    margin-left: 130px;
+    border: 0;
+    box-shadow: 4px 0 40px -10px black;
+    transform: skew(-5deg, 14deg);
+  }
+  .phone-text-all #shey-name-all {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900 !important;
+    font-size: 20px;
+    margin-left: 13px;
+  }
+  .phone-text-all #shey-name {
+    color: #7A9759;
+  }
+}
+.about-all {
+  display: grid;
+}
+.about-all .about-com {
+  grid-row: 1;
+  grid-column: 2;
+}
+.about-all .about-text {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+@media screen and (max-width: 700px) {
+  .about-all {
+    display: grid;
+  }
+  .about-all .about-com {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 10px !important;
+    margin-left: 120px !important;
+    margin-bottom: -30px !important;
+    width: 60%;
+  }
+  .about-all .about-text {
+    grid-row: 2;
+    grid-column: 2;
+  }
+}
+.card-back {
+  background-color: #7A9759;
+  height: 150px;
+  border-radius: 50px 50px 5px 5px;
+}
+.card-back .img-fluid {
+  margin-top: 50px;
+  box-shadow: 2px 0 20px -5px grey;
+}
+
+.seyi-part:hover {
+  margin-top: 15px !important;
+}
+
+.bett {
+  background-color: #7A9759;
+  height: 300px;
+  border-radius: 150px 20px 150px 20px;
+  border-top: 10px solid #2D3E50;
+  border-bottom: 10px solid lemonchiffon;
+  border-left: 5px solid lemonchiffon;
+  border-right: 5px solid #2D3E50;
+}
+.bett .text-of-version {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.bett .down-version {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.bett .play-apple {
+  display: grid;
+}
+.bett .play-apple .google-img {
+  grid-row: 1;
+  grid-column: 2;
+  border-radius: 10px;
+}
+.bett .play-apple .apple-img {
+  grid-row: 1;
+  grid-column: 5;
+  border-radius: 10px;
+}
+.bett .play-apple .window-img {
+  grid-row: 1;
+  grid-column: 8;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .bett {
+    background-color: #7A9759;
+    height: 330px;
+    border-radius: 150px 20px 150px 20px;
+    border-top: 10px solid #2D3E50;
+    border-bottom: solid blue;
+    border-left: solid yellow;
+    border-right: solid black;
+  }
+  .bett .down-version {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .bett .play-apple {
+    display: grid;
+  }
+  .bett .play-apple .google-img {
+    grid-row: 1;
+    grid-column: 2;
+    border-radius: 10px;
+    margin-top: -20px;
+    width: 40% !important;
+    margin-left: -150px !important;
+  }
+  .bett .play-apple .apple-img {
+    grid-row: 1;
+    grid-column: 3;
+    border-radius: 10px;
+    margin-top: -74px;
+    width: 38% !important;
+    margin-left: 240px !important;
+  }
+  .bett .play-apple .window-img {
+    grid-row: 3;
+    grid-column: 2;
+    border-radius: 10px;
+    display: none;
+  }
+}
+#svg-area {
+  position: absolute;
+}
+
+#footer-area {
+  position: relative;
+  top: 270px;
+}
+
+@media screen and (max-width: 1150px) {
+  #svg-area {
+    position: absolute;
+  }
+
+  #footer-area {
+    position: relative;
+    top: 90px;
+  }
+}/*# sourceMappingURL=app-land.css.map */

@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.https": {
+        "enable": true
+    },
+    "git.ignoreLimitWarning": true
+}
